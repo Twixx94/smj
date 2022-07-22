@@ -1,0 +1,53 @@
+:root{
+    --main-color: #6c5ce7;
+    --secondary-color: #a29bfe;
+    --lighter-color: #e0e0e7;
+    --light-color: #b0b0c0;
+    --dark-color: #52505e;
+    --darker-color: #333;
+    --font-smaller: 14px;
+    --font-bigger: 20px;
+}
+.vaccin-parent{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 0.5em 0 0.5em 0;
+}
+.radio{
+    text-align: center;
+    margin-bottom: 0.5em;
+   
+}
+.radio-box{
+    border: 1px solid var(--secondary-color) ;
+    padding: 4em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.radio-box:hover{
+    cursor: pointer;
+    border: 2px solid var(--main-color);
+}
+.radio-btn{
+    vertical-align: middle;
+    cursor: pointer;
+}
+label{
+    margin-left: 0.5em;
+
+}
+textarea{
+	width: 600px;
+	height: 120px;
+    resize: none;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+.textarea-box{
+   display: flex;
+   justify-content: center;
+}
+.textarea-box:hover{
+    border: 1px solid var(--secondary-color);
+}
